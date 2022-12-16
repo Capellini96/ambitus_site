@@ -10,14 +10,13 @@ export default function Home() {
     <>
   
         <Container id='home'>
-          
             <Row>
                 <Col className='me-4'>
                     <h1 className='title mt-5'>  Water Recycling &
                 Treatment Services</h1>
-                <img className="img-fluid" src={System35} alt="" />
+                <img className="img-fluid system90" src={System35} alt="" />
                 </Col>
-                <Col md={{ span: 4, offset: 3 }}>
+                <Col >
                     <div className='text-left'>
                     <img className="img-fluid"  src={AmbitusCircle} alt="" />
                     <li className='diamond-text'>Compact & Configurable</li>

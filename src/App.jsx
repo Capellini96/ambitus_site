@@ -2,10 +2,10 @@
 import './index.css';
 import Navbars from './components/Navbars';
 import Home from './components/Home'
-// import Applications from './components/Applications'
-// import Legislation from './components/Legislation'
+ import Applications from './components/Applications'
+import Legislation from './components/Legislation'
 // import CaseStudies from './components/CaseStudies'
-// import Parteners from './components/Parteners'
+import Partners from './components/Partners'
 import React from 'react';
 import Footer from './components/Footer';
 
@@ -19,10 +19,10 @@ function App() {
     <div className="App">
       <Navbars />
       <Home/>
-      {/* <Applications/>
-      <Legislation/>
-      <CaseStudies/>
-      <Parteners/> */}
+      <Applications/>
+       <Legislation/>
+      {/* <CaseStudies/> */}
+      <Partners/> 
      <Footer/>
     </div>
   );

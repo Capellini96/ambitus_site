@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9ef82732.css",
+    "main.js": "./static/js/main.0b469f51.js",
+    "static/media/ambitus_crcl.gif": "./static/media/ambitus_crcl.1ab54d4aca74ff78aacf.gif",
+    "static/media/app_hotels.png": "./static/media/app_hotels.92d7b9c40740e3c09d11.png",
+    "static/media/app_commercial.png": "./static/media/app_commercial.eea2da0b870d30e52c34.png",
+    "static/media/system_35.png": "./static/media/system_35.252d56d6a24e260f4b6c.png",
+    "static/media/app_hospital.png": "./static/media/app_hospital.c3f7ac110f1fd4312dab.png",
+    "static/media/secondProt.png": "./static/media/secondProt.d0cc12b0c063a7568f51.png",
+    "static/media/logo.svg": "./static/media/logo.ffdf33ce9c208d3c39f100349fbb04a4.svg",
+    "static/media/partner_Alves_Bandeira.png": "./static/media/partner_Alves_Bandeira.11b297fb0f9a1a2922ad.png",
+    "static/media/partner_oxygen.svg": "./static/media/partner_oxygen.649096c87040ac2048d7e7e344d1ebac.svg",
+    "static/media/water.svg": "./static/media/water.5caddbc0b8c08537a91019685c2a36dc.svg",
+    "static/media/air.svg": "./static/media/air.887fc014d3e2fc7c291bc311e93d84b4.svg",
+    "static/media/solids.svg": "./static/media/solids.b89715ca36f522f0451a455802b45c8f.svg",
+    "static/media/rain-drop.svg": "./static/media/rain-drop.426378fdd63de93f3f4948601f1ab659.svg",
+    "index.html": "./index.html",
+    "main.9ef82732.css.map": "./static/css/main.9ef82732.css.map",
+    "main.0b469f51.js.map": "./static/js/main.0b469f51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ef82732.css",
+    "static/js/main.0b469f51.js"
+  ]
+}

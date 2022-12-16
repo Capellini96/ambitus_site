@@ -7,7 +7,104 @@ body {
   --Background: #025159!important;
   color: white !important;
   background-color: #0E221E!important;
+}
+.partners_container{
+  border-radius: 2em;
+  min-height: 400px;
+  padding: auto;
+  margin: auto;
+  box-shadow: inset 0px 4px 16px 8px rgba(60, 146, 177, 0.15),
+  inset 0px 4px 8px rgba(174, 174, 174, 0.25);
+}
+.partner_logo1{
+  margin-top: 50px;
+  width: 280px!important;
+  height: 100px;
+}
+.partner_logos{
+  margin-top: 40px;
+  width: 240px!important;
+  height: 120px;
+}
+.navbar-brand{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px !important;
+}
+.cards {
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  grid-row-gap: 1rem;
+  width: 90%;
+}
+.cards h3 {
+  margin-bottom: 1rem;
+}
+.cardBlue {
+  position: relative;
+  background-color: var(--Background);
+  box-shadow: inset 0px 4px 16px 8px rgba(60, 146, 177, 0.15),
+    inset 0px 4px 8px rgba(174, 174, 174, 0.25);
+  border-radius: 20px;
+  padding: 2rem;
+}
+.phases .cardBlue {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--Background);
+  box-shadow: inset 0px 4px 16px 8px rgba(60, 146, 177, 0.15),
+    inset 0px 4px 8px rgba(174, 174, 174, 0.25);
+  border-radius: 20px;
+  padding: 2rem;
+}
+.cardBlue img {
+  margin-right: 2rem;
+  width: 4rem;
+}
 
+.cardBlue::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 6px;
+  background: linear-gradient(
+    180deg,
+    rgba(37, 156, 211, 0) 13.76%,
+    #259cd3 50.34%,
+    rgba(37, 156, 211, 0) 86.91%
+  );
+}
+.phasesBox {
+  padding: 4rem 8rem;
+}
+.phases {
+  display: grid;
+  /* grid-template: "1fr 1fr" "1fr 1fr"; */
+  grid-gap: 1rem;
+}
+.phases h3 {
+  margin-bottom: 1rem;
+}
+.appImg {
+  min-height: 600px;
+  max-height: 1000px;
+  min-width: 400px;
+  max-width: 800px;
+
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+.system90{
+  width: 550px;
+  height: 400px;
 }
 .navbar-brand{
   font-family: "Inter", Helvetica !important;
@@ -615,14 +712,14 @@ code {
   font-size: 16px !important;
   margin-left: 10px;
   font-weight: 900 !important;
-  padding-left: 15px !important;
-  padding-right: 15px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
   border-radius: 100px;
 }
 
 .navlinkNormal:hover {
-  background-color: #752EDC !important;
-  border-radius: 100px;
+  background-color: #025159 !important;
+  border-radius: 1em;
 }
 
 .navlinkDoc {
@@ -747,7 +844,7 @@ code {
  
 }
 .footer-text:hover{
- color: #5918b7!important;
+ color: #4DD4CB!important;
 }
 
 .startNesting {
@@ -783,6 +880,24 @@ code {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 900px) {
+  .phasesBox {
+    padding: 4rem 1rem;
+  }
+  .phases {
+    display: grid;
+    grid-template: unset;
+    grid-gap: 1rem;
+  }
+  /* Partners section styles */
+  .papersBox {
+    height: 90vh;
+    padding: 4rem 1rem;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: unset;
+    padding: 2rem;
+  }
   .title {
     font-weight: 900;
     font-size: 40px;
@@ -1067,8 +1182,9 @@ code {
   .removeMobile {
     display: none;
   }
-
+  
   .blueletters {
+
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;

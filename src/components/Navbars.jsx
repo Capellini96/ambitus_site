@@ -34,11 +34,11 @@ function Navbars() {
           
           </Nav>
           <Nav.Link className='navlinkNormal' href="#">Home</Nav.Link>
-            <Nav.Link className='navlinkNormal' href="#applications" target="_blank" rel="noopener noreferrer">Applications</Nav.Link>
+            <Nav.Link className='navlinkNormal' href="#applications" >Applications</Nav.Link>
             <Nav.Link className='navlinkNormal' href="#legislation">Legislation</Nav.Link>
-            <Nav.Link className='navlinkNormal' href='#case' target="_blank" rel="noopener noreferrer">Case Studies</Nav.Link>
-            <Nav.Link className='navlinkNormal' href='https://docs.xcrow.net' target="_blank" rel="noopener noreferrer">Parteners</Nav.Link>
-            <Nav.Link className='navlinkNormal' href='https://docs.xcrow.net' target="_blank" rel="noopener noreferrer">Contacts</Nav.Link>
+            {/* <Nav.Link className='navlinkNormal' href='#case'>Case Studies</Nav.Link> */}
+            <Nav.Link className='navlinkNormal' href='#partners' >Partners</Nav.Link>
+            <Nav.Link className='navlinkNormal' href='#Contact' >Contacts</Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>

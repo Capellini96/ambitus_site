@@ -23,32 +23,18 @@ export default function Footer() {
             </Col>
 
             <Col md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='footer-title'>Useful links</h6>
-              <p className=' mt-4'>
-                <a href='https://drive.google.com/file/d/16ZsziAvQJDOoilZ9O-7nJKVe7QY4HJR2/view' className='footer-text'>
-                  Litepaper
-                </a>
-              </p>
-              <p>
-                <a href='https://drive.google.com/file/d/1IEKRxVeJduDcRvMia-pbIcBXM3UIz-N3/view' className='footer-text'>
-                  Whitepaper
-                </a>
-              </p>
-              <p>
-                <a href='https://docs.xcrow.net/docs/FAQS/General' className='footer-text'>
-                  FAQ's
-                </a>
-              </p>
+          
              
             </Col>
 
             <Col md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-5'>
               <h6 className='footer-title'>Contact</h6>
               <p className="light-text">
-                <a  className='footer-text' href="mailto:hello@xcrow.net">
-                hello@xcrow.net
+                <a  className='footer-text' href="mailto:d.ferreira@ambitustrategy.com">
+                a.capelas@ambitustrategy.com
                 </a>
               </p>
+              <p className='light-text'>+351925460087</p>
             </Col>
           </Row>
         </Container>
