@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.9ef82732.css",
-    "main.js": "./static/js/main.0b469f51.js",
+    "main.css": "./static/css/main.1a8b944a.css",
+    "main.js": "./static/js/main.4374e931.js",
     "static/media/ambitus_crcl.gif": "./static/media/ambitus_crcl.1ab54d4aca74ff78aacf.gif",
     "static/media/app_hotels.png": "./static/media/app_hotels.92d7b9c40740e3c09d11.png",
     "static/media/app_commercial.png": "./static/media/app_commercial.eea2da0b870d30e52c34.png",
@@ -16,11 +16,11 @@
     "static/media/solids.svg": "./static/media/solids.b89715ca36f522f0451a455802b45c8f.svg",
     "static/media/rain-drop.svg": "./static/media/rain-drop.426378fdd63de93f3f4948601f1ab659.svg",
     "index.html": "./index.html",
-    "main.9ef82732.css.map": "./static/css/main.9ef82732.css.map",
-    "main.0b469f51.js.map": "./static/js/main.0b469f51.js.map"
+    "main.1a8b944a.css.map": "./static/css/main.1a8b944a.css.map",
+    "main.4374e931.js.map": "./static/js/main.4374e931.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ef82732.css",
-    "static/js/main.0b469f51.js"
+    "static/css/main.1a8b944a.css",
+    "static/js/main.4374e931.js"
   ]
 }

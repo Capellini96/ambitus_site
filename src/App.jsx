@@ -1,5 +1,6 @@
 
 import './index.css';
+import { useTranslation } from "react-i18next";
 import Navbars from './components/Navbars';
 import Home from './components/Home'
  import Applications from './components/Applications'
@@ -11,6 +12,7 @@ import Footer from './components/Footer';
 
 
 function App() {
+  const { t, i18n } = useTranslation();
 
   
   return (

@@ -6,13 +6,17 @@ import aband from '../assets/images/partner_Alves_Bandeira.png'
 import stex from '../assets/images/partner_stex.png'
 import oxygen from '../assets/images/partner_oxygen.svg'
 
+import translateDangerous from '../utils/utilities';
+import { useTranslation } from "react-i18next";
+
 
 export default function Home() {
+  const { t } = useTranslation();
 
   return (
     <>
         <FadeInSection>
-            <h1 className='title text-center'>Partners</h1>
+            <h1 className='title text-center'>{t('i18n.main.partners')}</h1>
            <Container className='partners_container' id='partners'>
                 <Row className='text-center'>
                    <Col>

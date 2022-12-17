@@ -1,0 +1,57 @@
+{   
+	"i18n.main.home": "Home",
+	"i18n.main.applications": "Applications",
+	"i18n.main.legislation": "Legislation",	
+	"i18n.main.case_studies": "Case Studies",	
+	"i18n.main.partners": "Partners",
+
+	"i18n.main.design_efficient": "Designed for Worse Case Scenarios",
+	"i18n.main.water_recycling_and": "Water Recycling & Treatment Services",
+	"i18n.main.compact_and_efficient": "<li>Compact & Configurable</li><li>Low Operating Cost</li><li>Up to 90% Recycled Efficiency</li><li>Blockchain Ready (*OxygenChain)</li>",
+	"i18n.main.structure_in_steel": "<li>Structure in galvanized Steel (SKID)</li><li>High surface Mineral Filter</li><li>Hydoanthracite Zeolite Filter</li><li>WasteWater Collection Pump</li><li>Instant Flow Meter and Totalizer; Mixer and Water Softner</li><li>Line Filters; Ultraviolet (UV-C) Disinfection System</li><li>Dosing Pumps</li><li>Control Panel</li><li>Reagents (Flocculant/Coagulant of plant origin</li><li>Chemical Disinfectant, Oxidant for decomposition of residual detergent</li>",
+	
+	"i18n.main.system_dimension": "APPROX. Dimensions(1 M3/H): 2.3M X 1.0M X 2.0M",
+
+	"i18n.main.applications": "Applications",
+
+	"i18n.main.app_hotels": "Apartments & Hotels",
+	"i18n.main.app_commercial": "Commercial & </br>Industrial",
+	"i18n.main.app_hospital": "Hospitals",
+
+
+	"i18n.main.app_hotels_items": "<li>Laundry</li><li>Landscaping</li><li>Garages</li><li>Spas</li><li>Gyms</li>",
+	"i18n.main.app_commercial_items": "<li>Gas Stations</li><li>Car Washes</li><li>Laundry Mats</li><li>Bus Garages</li><li>Industries</li><li>Restaurants</li>",
+	"i18n.main.app_hospital_items": "<li>Laundry</li><li>Fleet Vehicle Washes</li><li>Landscaping</li><li>Sewage Treatment</li>",
+
+
+	"i18n.main.legislation": "Legislation",
+	"i18n.main.legislation_residual": "Residual Waters",
+	"i18n.main.legislation_residual_desc": "Water resulting from domestic, urban, industrial or service activities, surface runoff, contaminated rainwater, unitary or pseudo-seperative drainage systems, or any influx or accidental infiltration into wastewater drainage systems.",
+	"i18n.main.legislation_recycling": "Water Recycling",
+	"i18n.main.legislation_recycling_desc": "Use of treated wastewater for certain uses, minimizing the associated risks and becoming an alternative source in terms of water availability. Treated wastewater should be reused whenever possible and appropriate",
+	"i18n.main.legislation_ass": "Assaciated Uses",
+	"i18n.main.legislation_ass_desc": "Non-potable uses, in accordance with decree-law No. 119/2019 of 08/21; Non-Potable reuse systems generally have lower water quality objectives and the level of treatment varies depending on the end use - fit for purpose.",
+	"i18n.main.legislation_reuse": "Water for Reuse (APR)",
+	"i18n.main.legislation_reuse_desc": "Wastewater intended for reuse that has been subjected to the necessary treatment to achieve a quality compatible with the intended end use without deteriorating the quality of the recievers.",
+	"i18n.main.legislation_rain": "Contaminated  RainWater",
+	"i18n.main.legislation_rain_desc": "RainWater in contact with waterproofed surfaces, is liable to drag suspended materials or other polluteants and contaminants (Bird and /or rodent feces; leaves; particulates, etc.) Whose load implies the need for treatement prior to their reuse or direct rejection to the recieving medium.",
+
+
+	"i18n.main.case_studies": "Case Studies",
+
+
+
+	"i18n.main.partners": "Partners",
+
+
+	"i18n.main.contact_information": "Contact Information",
+	"i18n.main.email": "Email",
+
+
+	"i18n.main.contact_thanks": "Thanks for contacting us.",
+	"i18n.main.contact_message_sent": "Your message has been sent successfully. We will contact you very\n            soon!",
+	
+	"i18n.main.full_name": "First and Last Name",
+	"i18n.main.fill_form_send": "Please fill out the form and send to contact us.",
+	"i18n.main.message": "Message here"
+}
