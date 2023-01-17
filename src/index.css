@@ -724,6 +724,21 @@ li {
   border-radius: 100px;
   /* white-space: nowrap; */
 }
+.btn_language{
+  font-size: 16px!important;
+  border-radius: 100px;
+  background-color: rgb(0, 153, 255);
+  border-width: 2px!important;
+  border-style: solid!important;
+  border-color: rgb(0, 153, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+.btn_language:hover{
+  background-color: rgba(0, 153, 255, 0.162) !important;
+  border-radius: 1em;
+}
 
 .navlinkNormal:hover {
   background-color: #025159 !important;

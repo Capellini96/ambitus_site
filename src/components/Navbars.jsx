@@ -8,6 +8,7 @@ import { Modal} from 'react-bootstrap';
 import { useTranslation } from "react-i18next";
 
 
+
 function Navbars() {
   const { t, i18n } = useTranslation();
   const [language, setlanguage] = useState('en_us')
@@ -52,10 +53,10 @@ function Navbars() {
             {/* <Nav.Link className='navlinkNormal' href='#case'>{t('i18n.main.case_studies')}</Nav.Link> */}
             <Nav.Link className='navlinkNormal' href='#partners' >{t('i18n.main.partners')}</Nav.Link>
             <Nav.Link className='navlinkNormal' href='#Contact' >Contacts</Nav.Link>
-            <div className="navlinkNormal" style={{width:'200px'}}>
-                  <div onClick={() => handleLangClick("en_us")} >EN</div>&nbsp;&nbsp;|&nbsp;&nbsp;
-                  <div onClick={() => handleLangClick("pt_br")} > PT </div>
-            </div>
+            <Nav.Link>
+                  <button className="btn_language" onClick={() => handleLangClick("en_us")} >EN</button>&nbsp;&nbsp;|&nbsp;&nbsp;
+                  <button className="btn_language" onClick={() => handleLangClick("pt_br")} > PT </button>
+            </Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
