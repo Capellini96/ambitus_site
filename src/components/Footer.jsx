@@ -15,7 +15,7 @@ export default function Footer() {
             <Col md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='footer-title'>
                 <img src={logo} alt="logo XCROW" width={"50px"}/>
-                Ambitus strategy
+                Ambitus Strategy
               </h6>
               <p className='light-text'>
            

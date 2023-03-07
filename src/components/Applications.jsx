@@ -5,7 +5,7 @@ import FadeInSection from './UI/FadeComp'
 import System90 from "../assets/images/secondProt.png"
 import hotel from '../assets/images/app_hotels.png';
 import commercial from '../assets/images/app_commercial.png';
-import hospital from '../assets/images/app_hospital.png';
+import hospital from '../assets/images/hospital.jpg';
 
 import translateDangerous from '../utils/utilities';
 import { useTranslation } from "react-i18next";

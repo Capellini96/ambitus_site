@@ -9,6 +9,7 @@ body {
   background-color: #0E221E!important;
 }
 .partners_container{
+  background-color: #025159;
   border-radius: 2em;
   min-height: 400px;
   padding: auto;
@@ -16,6 +17,15 @@ body {
   box-shadow: inset 0px 4px 16px 8px rgba(60, 146, 177, 0.15),
   inset 0px 4px 8px rgba(174, 174, 174, 0.25);
 }
+.mb{
+  margin-bottom: 50px!important;
+}
+.partner_logos2{
+  margin-top: 50px;
+  width: 240px!important;
+  height: 140px;
+}
+
 .partner_logo1{
   margin-top: 50px;
   width: 280px!important;
